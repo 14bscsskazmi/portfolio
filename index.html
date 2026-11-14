@@ -1,17 +1,20 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; manifest-src 'self'; worker-src 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Salman Kazmi</title>
-<meta property="og:title" content="Salman Kazmi, Full-Stack Developer">
+<meta property="og:title" content="Salman Kazmi, Full-Stack Entwickler">
 <meta property="og:url" content="https://salmankazmi.de">
 <meta property="og:image" content="https://salmankazmi.de/salman-kazmi.jpg">
 <link rel="icon" href="salman-kazmi.jpg">
 <link rel="canonical" href="https://salmankazmi.de/">
-<meta name="description" content="Syed Salman Haider Kazmi, Full-Stack Developer in Nuremberg. React, TypeScript, Django, Node.js, n8n and AI agents.">
+<link rel="alternate" hreflang="de" href="https://salmankazmi.de/">
+<link rel="alternate" hreflang="en" href="https://salmankazmi.de/en/">
+<link rel="alternate" hreflang="x-default" href="https://salmankazmi.de/">
+<meta name="description" content="Syed Salman Haider Kazmi, Full-Stack Entwickler in Nürnberg. React, TypeScript, Django, Node.js, n8n und KI-Agenten.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -46,6 +49,11 @@ nav .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px
 .mark{font:800 19px var(--display);color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:10px}
 .mark img{width:34px;height:34px;border-radius:50%;object-fit:cover;border:2px solid var(--accent)}
 .mark i{width:28px;height:28px;border-radius:8px;display:grid;place-items:center;font:700 13px var(--mono);font-style:normal;background:var(--accent);color:var(--bg)}
+.navr{display:flex;align-items:center;gap:22px}
+.lang{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;font:500 12px var(--mono)}
+.lang a{padding:5px 9px;color:var(--muted);text-decoration:none}
+.lang a:hover{color:var(--ink)}
+.lang a[aria-current="true"]{background:var(--accent);color:#0a0e17}
 nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
 nav ul a{color:var(--muted);text-decoration:none;font-size:14px;position:relative}
 nav ul a::after{content:"";position:absolute;left:0;right:100%;bottom:-4px;height:2px;background:var(--accent);transition:right .25s}
@@ -211,147 +219,150 @@ footer{padding-block:28px;color:var(--muted);font-size:13px;border-top:1px solid
 
 
 <div class="bg-grid" aria-hidden="true"></div>
-<dialog id="photo-dlg" aria-label="Photo of Syed Salman Haider Kazmi">
+<dialog id="photo-dlg" aria-label="Foto von Syed Salman Haider Kazmi">
   <img src="salman-kazmi-large.jpg" alt="Syed Salman Haider Kazmi" width="600" height="600">
-  <button class="dlg-close" type="button" aria-label="Close">×</button>
+  <button class="dlg-close" type="button" aria-label="Schließen">×</button>
 </dialog>
 
 <nav id="nav">
   <div class="wrap">
     <a class="mark" href="#top"><img src="salman-kazmi.jpg" alt="" width="34" height="34">Salman Kazmi</a>
+    <div class="navr">
     <ul>
-      <li><a href="#work">Work</a></li>
+      <li><a href="#work">Projekte</a></li>
       <li><a href="#skills">Skills</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#experience">Werdegang</a></li>
+      <li><a href="#contact">Kontakt</a></li>
     </ul>
+    <div class="lang" aria-label="Language / Sprache"><a href="./" hreflang="de" lang="de" aria-current="true">DE</a><a href="en/" hreflang="en" lang="en">EN</a></div>
+    </div>
   </div>
 </nav>
 
 <div class="wrap" id="top">
   <header class="hero">
     <div>
-      <div class="who"><button class="avatar" id="photo-open" type="button" aria-label="View larger photo"><img src="salman-kazmi.jpg" alt="Portrait of Syed Salman Haider Kazmi" width="180" height="180"></button><span class="status"><b></b>Open to full-time roles · Nuremberg, Germany</span></div>
-      <h1>I build the web apps that <span class="grad">run the business.</span></h1>
-      <div class="typer" aria-live="off">&gt; currently shipping <span class="t" id="typer">React portals</span><span class="caret" aria-hidden="true"></span></div>
-      <p class="lede">I'm Syed Salman Haider Kazmi, a full-stack developer with 7 years of experience. I take products from the data model to the last pixel: React and TypeScript frontends, Django and Node.js APIs, n8n automations and AI agents.</p>
+      <div class="who"><button class="avatar" id="photo-open" type="button" aria-label="Foto vergrößern"><img src="salman-kazmi.jpg" alt="Porträt von Syed Salman Haider Kazmi" width="180" height="180"></button><span class="status"><b></b>Offen für Festanstellung · Nürnberg</span></div>
+      <h1>Ich baue Web-Apps, <span class="grad">die Unternehmen antreiben.</span></h1>
+      <div class="typer" aria-live="off">&gt; aktuell im Einsatz: <span class="t" id="typer">React-Portale</span><span class="caret" aria-hidden="true"></span></div>
+      <p class="lede">Ich bin Syed Salman Haider Kazmi, Full-Stack Entwickler mit 7 Jahren Erfahrung. Ich entwickle Produkte vom Datenmodell bis zum letzten Pixel: React- und TypeScript-Frontends, Django- und Node.js-APIs, n8n-Automatisierungen und KI-Agenten.</p>
       <div class="cta">
-        <a class="btn primary" href="#work">See my work</a>
-        <a class="btn" href="Kazmi_CV_FullStack_EN.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg>CV (PDF)</a>
+        <a class="btn primary" href="#work">Meine Projekte</a>
+        <a class="btn" href="Kazmi_Lebenslauf_FullStack_DE.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg>Lebenslauf (PDF)</a>
         <a class="btn" href="https://www.linkedin.com/in/syed-salman-haider-kazmi-921bb0a6/" target="_blank" rel="noopener">LinkedIn</a>
       </div>
     </div>
-    <div class="map" aria-label="Animated diagram of a system I build: portals talk to a Django API, which connects to PostgreSQL, an LLM agent and n8n automations.">
+    <div class="map" aria-label="Animiertes Diagramm eines Systems, wie ich es baue: Portale sprechen mit einer Django-API, die mit PostgreSQL, einem LLM-Agenten und n8n-Automatisierungen verbunden ist.">
       <canvas id="map"></canvas>
-      <div class="cap">LIVE SYSTEM MAP · <span>hover to explore</span></div>
+      <div class="cap">LIVE-SYSTEMKARTE · <span>mit der Maus erkunden</span></div>
     </div>
   </header>
 
   <div class="facts">
-    <div class="fact reveal"><strong>7 years</strong><span>building production web apps</span></div>
-    <div class="fact reveal"><strong>Tech lead</strong><span>new B2B customer portal</span></div>
-    <div class="fact reveal"><strong>Multi-role</strong><span>portal platform with RBAC</span></div>
-    <div class="fact reveal"><strong>CE Class I</strong><span>medical app I led</span></div>
+    <div class="fact reveal"><strong>7 Jahre</strong><span>produktive Web-Apps entwickelt</span></div>
+    <div class="fact reveal"><strong>Tech Lead</strong><span>neues B2B-Kundenportal</span></div>
+    <div class="fact reveal"><strong>Multi-Rollen</strong><span>Portalplattform mit RBAC</span></div>
+    <div class="fact reveal"><strong>CE Klasse I</strong><span>Medizin-App, die ich geleitet habe</span></div>
   </div>
 
   <section id="work">
     <div class="sec-head reveal">
-      <span class="label">Selected work</span>
-      <h2>Case studies</h2>
-      <p>The code belongs to my employers and clients, so instead of repos you get the story: the problem, my role and how the system works. I'm happy to go deeper in a call.</p>
+      <span class="label">Ausgewählte Projekte</span>
+      <h2>Fallstudien</h2>
+      <p>Der Code gehört meinen Arbeitgebern und Kunden. Statt Repos zeige ich daher die Geschichte dahinter: das Problem, meine Rolle und wie das System funktioniert. Gerne gehe ich in einem Gespräch tiefer ins Detail.</p>
     </div>
 
     <div class="switch reveal">
-      <div class="tabs" role="tablist" aria-label="Case studies">
-        <button class="tab" role="tab" id="t-oms" aria-controls="p-oms" aria-selected="true"><b>B2B trading platform</b><small>Elvinci · 2023–2026</small></button>
-        <button class="tab" role="tab" id="t-auto" aria-controls="p-auto" aria-selected="false" tabindex="-1"><b>Workflow automation</b><small>Elvinci · n8n</small></button>
+      <div class="tabs" role="tablist" aria-label="Fallstudien">
+        <button class="tab" role="tab" id="t-oms" aria-controls="p-oms" aria-selected="true"><b>B2B-Handelsplattform</b><small>Elvinci · 2023–2026</small></button>
+        <button class="tab" role="tab" id="t-auto" aria-controls="p-auto" aria-selected="false" tabindex="-1"><b>Workflow-Automatisierung</b><small>Elvinci · n8n</small></button>
         <button class="tab" role="tab" id="t-kal" aria-controls="p-kal" aria-selected="false" tabindex="-1"><b>Kalanit Rehab</b><small>Drop Solutions · 2021–2022</small></button>
-        <button class="tab" role="tab" id="t-trf" aria-controls="p-trf" aria-selected="false" tabindex="-1"><b>Trainify Tennis</b><small>Freelance · sports AI app</small></button>
-        <button class="tab" role="tab" id="t-den" aria-controls="p-den" aria-selected="false" tabindex="-1"><b>Denaio</b><small>Alfabolt · fintech</small></button>
+        <button class="tab" role="tab" id="t-trf" aria-controls="p-trf" aria-selected="false" tabindex="-1"><b>Trainify Tennis</b><small>Freelance · Sport-KI-App</small></button>
+        <button class="tab" role="tab" id="t-den" aria-controls="p-den" aria-selected="false" tabindex="-1"><b>Denaio</b><small>Alfabolt · Fintech</small></button>
       </div>
 
       <div>
         <article class="panel show" role="tabpanel" id="p-oms" aria-labelledby="t-oms">
-          <div class="meta"><span>Elvinci.de GmbH, Nuremberg</span><span>Tech lead, full stack</span><span>B2B returns trading</span></div>
-          <h3>B2B returns trading platform</h3>
-          <p class="sub">A multi-role order management system for buying and selling customer returns of white goods and electronics at wholesale scale.</p>
+          <div class="meta"><span>Elvinci.de GmbH, Nürnberg</span><span>Tech Lead, Full Stack</span><span>B2B-Retourenhandel</span></div>
+          <h3>B2B-Handelsplattform für Retouren</h3>
+          <p class="sub">Ein Multi-Rollen-Order-Management-System für den Ein- und Verkauf von Kundenretouren (Weiße Ware und Elektronik) im Großhandel.</p>
           <div class="cols">
-            <div><h4>Problem</h4><p>Sales, back office, warehouse, suppliers and buyers worked on the same orders through separate tools and manual handoffs. The business needed one system with the right view and permissions for each group.</p></div>
-            <div><h4>What I built</h4><ul>
-              <li>Led the design of a <b>multi-role portal platform</b> in React and TypeScript: admin, sales, back office, suppliers, buyers and warehouse each get their own workspace with granular RBAC.</li>
-              <li>Built and extended the <b>Django REST APIs</b> behind it, including automated B2B invoicing, on PostgreSQL.</li>
-              <li>Owned the backlog and decided sprint scope by business impact.</li>
-              <li>Set up <b>CI/CD with GitHub Actions and Docker</b> from dev to production, plus server deployment.</li>
-              <li>Mentored a junior developer through code reviews and AI-assisted development.</li>
+            <div><h4>Problem</h4><p>Vertrieb, Backoffice, Lager, Lieferanten und Käufer arbeiteten an denselben Aufträgen, aber mit getrennten Tools und manuellen Übergaben. Das Unternehmen brauchte ein System mit der passenden Ansicht und den richtigen Rechten für jede Gruppe.</p></div>
+            <div><h4>Was ich gebaut habe</h4><ul>
+              <li>Konzeption einer <b>Multi-Rollen-Portalplattform</b> in React und TypeScript: Admin, Vertrieb, Backoffice, Lieferanten, Käufer und Lager erhalten jeweils einen eigenen Arbeitsbereich mit granularem RBAC.</li>
+              <li>Entwicklung und Erweiterung der <b>Django REST APIs</b> dahinter, inklusive automatisierter B2B-Rechnungsstellung, auf PostgreSQL.</li>
+              <li>Verantwortung für das Backlog und Priorisierung der Sprints nach Business-Impact.</li>
+              <li>Aufbau von <b>CI/CD mit GitHub Actions und Docker</b> von Dev bis Produktion, inklusive Server-Deployment.</li>
+              <li>Mentoring eines Junior-Entwicklers durch Code-Reviews und KI-gestützte Entwicklung.</li>
             </ul></div>
           </div>
-          <div class="pipe" aria-label="System flow"><span class="n" style="--i:0">React portals</span><span class="e" style="--i:0"></span><span class="n" style="--i:1">RBAC</span><span class="e" style="--i:1"></span><span class="n" style="--i:2">Django REST API</span><span class="e" style="--i:2"></span><span class="n" style="--i:3">PostgreSQL</span><span class="e" style="--i:3"></span><span class="n" style="--i:4">invoicing · Celery</span></div>
-          <div class="outcome"><b>Outcome:</b> one platform for the whole order lifecycle, from supplier intake to invoicing, replacing separate tools and manual handoffs.</div>
+          <div class="pipe" aria-label="Systemablauf"><span class="n" style="--i:0">React-Portale</span><span class="e" style="--i:0"></span><span class="n" style="--i:1">RBAC</span><span class="e" style="--i:1"></span><span class="n" style="--i:2">Django REST API</span><span class="e" style="--i:2"></span><span class="n" style="--i:3">PostgreSQL</span><span class="e" style="--i:3"></span><span class="n" style="--i:4">Rechnungen · Celery</span></div>
+          <div class="outcome"><b>Ergebnis:</b> eine Plattform für den gesamten Auftragsprozess, vom Wareneingang bis zur Rechnung, statt getrennter Tools und manueller Übergaben.</div>
           <ul class="chips"><li>React</li><li>TypeScript</li><li>Django REST Framework</li><li>PostgreSQL</li><li>Celery</li><li>Docker</li><li>GitHub Actions</li><li>nginx</li></ul>
         </article>
 
         <article class="panel" role="tabpanel" id="p-auto" aria-labelledby="t-auto" hidden>
-          <div class="meta"><span>Elvinci.de GmbH</span><span>Designed and built</span><span>Internal operations</span></div>
-          <h3>Cross-team workflow automation</h3>
-          <p class="sub">n8n pipelines that connect MS Teams, Jira, email and the order database.</p>
+          <div class="meta"><span>Elvinci.de GmbH</span><span>Konzipiert und umgesetzt</span><span>Interne Prozesse</span></div>
+          <h3>Teamübergreifende Workflow-Automatisierung</h3>
+          <p class="sub">n8n-Pipelines, die MS Teams, Jira, E-Mail und die Auftragsdatenbank verbinden.</p>
           <div class="cols">
-            <div><h4>Problem</h4><p>Issue reports and supplier shipment files arrived in chats and inboxes. People copied them into Jira or the database by hand, which was slow and easy to miss.</p></div>
-            <div><h4>What I built</h4><ul>
-              <li><b>Issue intake:</b> detects issue reports in MS Teams, creates a Jira ticket with the right priority and notifies the responsible department.</li>
-              <li><b>Supplier shipments:</b> picks up supplier XLSX files from email or Teams, cleans the data, writes it to the database and triggers a damage-check alert.</li>
+            <div><h4>Problem</h4><p>Fehlermeldungen und Lieferdateien kamen über Chats und Postfächer an. Sie wurden von Hand in Jira oder die Datenbank übertragen, was langsam war und leicht übersehen wurde.</p></div>
+            <div><h4>Was ich gebaut habe</h4><ul>
+              <li><b>Fehlermeldungen:</b> erkennt Meldungen in MS Teams, erstellt ein Jira-Ticket mit der passenden Priorität und benachrichtigt die zuständige Abteilung.</li>
+              <li><b>Lieferungen:</b> übernimmt XLSX-Dateien von Lieferanten aus E-Mail oder Teams, bereinigt die Daten, schreibt sie in die Datenbank und löst eine Schadensprüfung aus.</li>
             </ul></div>
           </div>
-          <div class="pipe" aria-label="Workflow"><span class="n" style="--i:0">Teams / email</span><span class="e" style="--i:0"></span><span class="n" style="--i:1">n8n</span><span class="e" style="--i:1"></span><span class="n" style="--i:2">parse &amp; prioritise</span><span class="e" style="--i:2"></span><span class="n" style="--i:3">Jira / PostgreSQL</span><span class="e" style="--i:3"></span><span class="n" style="--i:4">notify team</span></div>
-          <div class="outcome"><b>Outcome:</b> manual coordination steps between warehouse, sales and IT removed.</div>
+          <div class="pipe" aria-label="Ablauf"><span class="n" style="--i:0">Teams / E-Mail</span><span class="e" style="--i:0"></span><span class="n" style="--i:1">n8n</span><span class="e" style="--i:1"></span><span class="n" style="--i:2">auswerten &amp; priorisieren</span><span class="e" style="--i:2"></span><span class="n" style="--i:3">Jira / PostgreSQL</span><span class="e" style="--i:3"></span><span class="n" style="--i:4">Team benachrichtigen</span></div>
+          <div class="outcome"><b>Ergebnis:</b> manuelle Abstimmungsschritte zwischen Lager, Vertrieb und IT entfallen.</div>
           <ul class="chips"><li>n8n</li><li>Webhooks</li><li>Jira API</li><li>MS Teams</li><li>PostgreSQL</li><li>Celery</li></ul>
         </article>
 
         <article class="panel" role="tabpanel" id="p-kal" aria-labelledby="t-kal" hidden>
-          <div class="meta"><span>Drop Solutions, Italy</span><span>Led technical development</span><span>Medical device software</span></div>
+          <div class="meta"><span>Drop Solutions, Italien</span><span>Technische Leitung</span><span>Medizinprodukt-Software</span></div>
           <h3>Kalanit Rehab</h3>
-          <p class="sub">A CE-certified Class I medical device app (iOS and Android) for back and neck rehabilitation, distributed by Chiesi Italia.</p>
+          <p class="sub">Eine CE-zertifizierte Medizinprodukt-App der Klasse I (iOS und Android) für die Rücken- und Nackenreha, vertrieben von Chiesi Italia.</p>
           <div class="cols">
-            <div><h4>Problem</h4><p>Patients exercising at home get no feedback on their form, and doctors can't see how therapy is going between visits.</p></div>
-            <div><h4>What I built</h4><ul>
-              <li>The core <b>real-time full-body pose detection</b> engine with TensorFlow.js and MediaPipe, giving instant corrective feedback.</li>
-              <li>A clinical dashboard with doctor-patient connection, clinical diary, VAS pain scale and progress tracking, on a <b>Node.js REST API</b> with a React Native frontend.</li>
-              <li>A reusable component system with Storybook and Material UI.</li>
+            <div><h4>Problem</h4><p>Patienten, die zu Hause trainieren, erhalten kein Feedback zu ihrer Ausführung, und Ärzte sehen zwischen den Terminen nicht, wie die Therapie verläuft.</p></div>
+            <div><h4>Was ich gebaut habe</h4><ul>
+              <li>Die zentrale Engine für <b>Echtzeit-Ganzkörper-Posenerkennung</b> mit TensorFlow.js und MediaPipe, mit sofortigem Korrektur-Feedback.</li>
+              <li>Ein klinisches Dashboard mit Arzt-Patienten-Verbindung, Tagebuch, VAS-Schmerzskala und Fortschrittsverfolgung, auf einer <b>Node.js REST API</b> mit React-Native-Frontend.</li>
+              <li>Ein wiederverwendbares Komponentensystem mit Storybook und Material UI.</li>
             </ul></div>
           </div>
-          <div class="pipe" aria-label="System flow"><span class="n" style="--i:0">camera</span><span class="e" style="--i:0"></span><span class="n" style="--i:1">MediaPipe pose</span><span class="e" style="--i:1"></span><span class="n" style="--i:2">form check</span><span class="e" style="--i:2"></span><span class="n" style="--i:3">live feedback</span><span class="e" style="--i:3"></span><span class="n" style="--i:4">doctor dashboard</span></div>
-          <div class="outcome"><b>Outcome:</b> CE-certified medical device with ministerial authorisation (2023). Also defended as my M.Sc. thesis at Sapienza University of Rome.</div>
+          <div class="pipe" aria-label="Systemablauf"><span class="n" style="--i:0">Kamera</span><span class="e" style="--i:0"></span><span class="n" style="--i:1">MediaPipe-Pose</span><span class="e" style="--i:1"></span><span class="n" style="--i:2">Haltungscheck</span><span class="e" style="--i:2"></span><span class="n" style="--i:3">Live-Feedback</span><span class="e" style="--i:3"></span><span class="n" style="--i:4">Arzt-Dashboard</span></div>
+          <div class="outcome"><b>Ergebnis:</b> CE-zertifiziertes Medizinprodukt mit ministerieller Zulassung (2023). Zugleich meine Masterarbeit an der Sapienza-Universität Rom.</div>
           <ul class="chips"><li>React Native</li><li>Expo</li><li>TensorFlow.js</li><li>MediaPipe</li><li>Node.js</li><li>Storybook</li><li>Material UI</li></ul>
         </article>
 
         <article class="panel" role="tabpanel" id="p-trf" aria-labelledby="t-trf" hidden>
-          <div class="meta"><span>Freelance, with a co-founder</span><span>Mobile frontend + pose detection</span><span>Sports tech</span></div>
+          <div class="meta"><span>Freelance, mit einem Mitgründer</span><span>Mobile Frontend + Posenerkennung</span><span>Sporttechnologie</span></div>
           <h3>Trainify Tennis</h3>
-          <p class="sub">An AI-enabled performance analysis app for tennis players. It analyses forehand, backhand and serve technique from video and suggests how to improve. <a href="https://trainifytennis.com/" target="_blank" rel="noopener">trainifytennis.com</a></p>
+          <p class="sub">Eine KI-gestützte App zur Leistungsanalyse für Tennisspieler. Sie analysiert Vorhand, Rückhand und Aufschlag per Video und zeigt, wie man sich verbessert. <a href="https://trainifytennis.com/" target="_blank" rel="noopener">trainifytennis.com</a></p>
           <div class="cols">
-            <div><h4>Problem</h4><p>Players practising without a coach can't see what's wrong with their stroke: grip, preparation, swing path, contact and follow-through all happen in under a second.</p></div>
-            <div><h4>What I built</h4><ul>
-              <li>Set up the <b>React Native frontend</b> for both <b>iOS and Android</b>.</li>
-              <li>Built the <b>full-body pose detection</b> feature that tracks the player's body during a stroke.</li>
-              <li>Implemented the <b>arm-movement comparison</b> that checks the player's motion against the reference technique and flags where it differs.</li>
+            <div><h4>Problem</h4><p>Wer ohne Trainer übt, sieht nicht, was am eigenen Schlag falsch ist: Griff, Vorbereitung, Schwungbahn, Treffpunkt und Ausschwung passieren in weniger als einer Sekunde.</p></div>
+            <div><h4>Was ich gebaut habe</h4><ul>
+              <li>Aufbau des <b>React-Native-Frontends</b> für <b>iOS und Android</b>.</li>
+              <li>Entwicklung der <b>Ganzkörper-Posenerkennung</b>, die den Körper des Spielers während des Schlags verfolgt.</li>
+              <li>Umsetzung des <b>Armbewegungs-Vergleichs</b>, der die Bewegung mit der Referenztechnik abgleicht und Abweichungen markiert.</li>
             </ul></div>
           </div>
-          <div class="pipe" aria-label="System flow"><span class="n" style="--i:0">phone camera</span><span class="e" style="--i:0"></span><span class="n" style="--i:1">pose detection</span><span class="e" style="--i:1"></span><span class="n" style="--i:2">arm movement</span><span class="e" style="--i:2"></span><span class="n" style="--i:3">compare to reference</span><span class="e" style="--i:3"></span><span class="n" style="--i:4">feedback</span></div>
-          <div class="outcome"><b>Outcome:</b> a live product, offered by subscription at trainifytennis.com.</div>
-          <ul class="chips"><li>React Native</li><li>iOS</li><li>Android</li><li>Pose detection</li><li>Computer vision</li></ul>
+          <div class="pipe" aria-label="Systemablauf"><span class="n" style="--i:0">Handykamera</span><span class="e" style="--i:0"></span><span class="n" style="--i:1">Posenerkennung</span><span class="e" style="--i:1"></span><span class="n" style="--i:2">Armbewegung</span><span class="e" style="--i:2"></span><span class="n" style="--i:3">Vergleich mit Referenz</span><span class="e" style="--i:3"></span><span class="n" style="--i:4">Feedback</span></div>
+          <div class="outcome"><b>Ergebnis:</b> ein Live-Produkt, im Abo erhältlich auf trainifytennis.com.</div>
+          <ul class="chips"><li>React Native</li><li>iOS</li><li>Android</li><li>Posenerkennung</li><li>Computer Vision</li></ul>
         </article>
 
         <article class="panel" role="tabpanel" id="p-den" aria-labelledby="t-den" hidden>
-          <div class="meta"><span>Alfabolt</span><span>Led end to end</span><span>Fintech for families, Italy</span></div>
+          <div class="meta"><span>Alfabolt</span><span>Projektleitung End-to-End</span><span>Fintech für Familien, Italien</span></div>
           <h3>Denaio</h3>
-          <p class="sub">A financial literacy and spend-management platform for children, with controlled prepaid cards and parental supervision.</p>
+          <p class="sub">Eine Plattform für Finanzbildung und Ausgabenverwaltung für Kinder, mit kontrollierten Prepaid-Karten und elterlicher Aufsicht.</p>
           <div class="cols">
-            <div><h4>My role</h4><p>Defined the requirements and architecture, and owned communication with stakeholders.</p></div>
-            <div><h4>What I built</h4><ul>
-              <li>The <b>Node.js backend</b>.</li>
-              <li>Payments with <b>Stripe and PayPal</b>, tested end to end against the PayPal sandbox.</li>
+            <div><h4>Meine Rolle</h4><p>Definition von Anforderungen und Architektur sowie Verantwortung für die Kommunikation mit Stakeholdern.</p></div>
+            <div><h4>Was ich gebaut habe</h4><ul>
+              <li>Das <b>Node.js-Backend</b>.</li>
+              <li>Zahlungen mit <b>Stripe und PayPal</b>, End-to-End getestet mit der PayPal-Sandbox.</li>
             </ul></div>
           </div>
-          <div class="pipe" aria-label="System flow"><span class="n" style="--i:0">parent app</span><span class="e" style="--i:0"></span><span class="n" style="--i:1">Node.js API</span><span class="e" style="--i:1"></span><span class="n" style="--i:2">Stripe / PayPal</span><span class="e" style="--i:2"></span><span class="n" style="--i:3">card limits</span></div>
+          <div class="pipe" aria-label="Systemablauf"><span class="n" style="--i:0">Eltern-App</span><span class="e" style="--i:0"></span><span class="n" style="--i:1">Node.js API</span><span class="e" style="--i:1"></span><span class="n" style="--i:2">Stripe / PayPal</span><span class="e" style="--i:2"></span><span class="n" style="--i:3">Kartenlimits</span></div>
           <ul class="chips"><li>React</li><li>Node.js</li><li>Stripe</li><li>PayPal</li></ul>
         </article>
       </div>
@@ -402,13 +413,13 @@ footer{padding-block:28px;color:var(--muted);font-size:13px;border-top:1px solid
 
   <section id="skills">
     <div class="sec-head reveal">
-      <span class="label">Toolbox</span>
-      <h2>Pick a skill, see where I used it</h2>
+      <span class="label">Werkzeugkasten</span>
+      <h2>Skill wählen und sehen, wo ich ihn eingesetzt habe</h2>
     </div>
     <div class="skills reveal">
       <div class="groups" id="groups"></div>
       <aside class="used" aria-live="polite">
-        <span class="label">Used in</span>
+        <span class="label">Eingesetzt in</span>
         <h3 id="used-title">React</h3>
         <ul id="used-list"></ul>
       </aside>
@@ -417,33 +428,33 @@ footer{padding-block:28px;color:var(--muted);font-size:13px;border-top:1px solid
 
   <section id="experience">
     <div class="sec-head reveal">
-      <span class="label">Experience</span>
-      <h2>Where I've worked</h2>
+      <span class="label">Werdegang</span>
+      <h2>Berufserfahrung</h2>
     </div>
     <div class="tl">
-      <div class="it reveal"><div class="when">2023 – 2026</div><div><h3>Full-Stack Developer · Elvinci.de GmbH, Nuremberg</h3><p>Technical lead for the new B2B customer portal. React, Django, CI/CD, DevOps and process automation.</p></div></div>
-      <div class="it reveal"><div class="when">2021 – 2022</div><div><h3>Full-Stack Developer · Drop Solutions, Italy</h3><p>Medical device software. Led Kalanit Rehab end to end.</p></div></div>
-      <div class="it reveal"><div class="when">2018 – 2021</div><div><h3>Frontend Developer · Alfabolt</h3><p>Social and fintech apps in React, real-time chat over WebSocket, frontend standards and component libraries.</p></div></div>
-      <div class="it reveal"><div class="when">2020 – 2023</div><div><h3>M.Sc. Computer Science · Sapienza University of Rome</h3><p>Cloud computing, distributed systems, AI. Grade 103/110.</p></div></div>
-      <div class="it reveal"><div class="when">2014 – 2018</div><div><h3>B.Sc. Computer Science · NUST</h3><p>English (C1), German (B1+), Urdu (native).</p></div></div>
+      <div class="it reveal"><div class="when">2023 – 2026</div><div><h3>Full-Stack Entwickler · Elvinci.de GmbH, Nürnberg</h3><p>Technische Hauptverantwortung für das neue B2B-Kundenportal. React, Django, CI/CD, DevOps und Prozessautomatisierung.</p></div></div>
+      <div class="it reveal"><div class="when">2021 – 2022</div><div><h3>Full-Stack Entwickler · Drop Solutions, Italien</h3><p>Medizinprodukt-Software. Leitung von Kalanit Rehab von Anfang bis Ende.</p></div></div>
+      <div class="it reveal"><div class="when">2018 – 2021</div><div><h3>Frontend Entwickler · Alfabolt</h3><p>Social- und Fintech-Apps mit React, Echtzeit-Chat über WebSocket, Frontend-Standards und Komponentenbibliotheken.</p></div></div>
+      <div class="it reveal"><div class="when">2020 – 2023</div><div><h3>M.Sc. Informatik · Sapienza-Universität Rom</h3><p>Cloud Computing, verteilte Systeme, KI. Note 103/110.</p></div></div>
+      <div class="it reveal"><div class="when">2014 – 2018</div><div><h3>B.Sc. Informatik · NUST</h3><p>Englisch (C1), Deutsch (B1+), Urdu (Muttersprache).</p></div></div>
     </div>
   </section>
 
   <section id="contact" class="contact">
-    <span class="label">Contact</span>
-    <h2>Let's build something <span>that matters.</span></h2>
-    <p class="lede">Open to full-stack and frontend roles in Germany or remote in Europe.</p>
+    <span class="label">Kontakt</span>
+    <h2>Lassen Sie uns etwas bauen, <span>das zählt.</span></h2>
+    <p class="lede">Offen für Full-Stack- und Frontend-Stellen in Deutschland oder remote in Europa.</p>
     <div class="email">
       <code id="email">salmanhaider631@gmail.com</code>
-      <button class="btn" id="copy" type="button">Copy email</button>
+      <button class="btn" id="copy" type="button">E-Mail kopieren</button>
     </div>
     <div class="cta">
-      <a class="btn primary" href="https://www.linkedin.com/in/syed-salman-haider-kazmi-921bb0a6/" target="_blank" rel="noopener">Message me on LinkedIn</a>
-      <a class="btn" href="Kazmi_CV_FullStack_EN.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+      <a class="btn primary" href="https://www.linkedin.com/in/syed-salman-haider-kazmi-921bb0a6/" target="_blank" rel="noopener">Nachricht auf LinkedIn</a>
+      <a class="btn" href="Kazmi_Lebenslauf_FullStack_DE.pdf" target="_blank" rel="noopener">Lebenslauf (PDF)</a>
     </div>
   </section>
 
-  <footer><span>© 2026 Syed Salman Haider Kazmi</span><span>Nuremberg, Germany</span></footer>
+  <footer><span>© 2026 Syed Salman Haider Kazmi</span><span>Nürnberg, Deutschland</span></footer>
 </div>
 
 <script src="app.js" defer></script>

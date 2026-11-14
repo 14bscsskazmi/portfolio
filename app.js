@@ -14,8 +14,9 @@ if (window.top !== window.self) { try { window.top.location = window.self.locati
     rev.forEach(function(el){ var r = el.getBoundingClientRect(); if (r.top < innerHeight) el.classList.add('in'); else io.observe(el); });
   } else rev.forEach(function(el){ el.classList.add('in'); });
 
+  var de = document.documentElement.lang === 'de';
   /* typewriter */
-  var words = ['React portals','Django REST APIs','n8n automations','RAG pipelines','multi-agent systems','CI/CD with Docker'];
+  var words = de ? ['React-Portale','Django REST APIs','n8n-Automatisierungen','RAG-Pipelines','Multi-Agenten-Systeme','CI/CD mit Docker'] : ['React portals','Django REST APIs','n8n automations','RAG pipelines','multi-agent systems','CI/CD with Docker'];
   var tEl = document.getElementById('typer'), wi = 0, ci = words[0].length, del = true;
   if (!reduce) (function tick(){
     var w = words[wi];
@@ -49,7 +50,10 @@ if (window.top !== window.self) { try { window.top.location = window.self.locati
   });
 
   /* skills explorer */
-  var P = {
+  var P = de ? {
+    oms:['B2B-Handelsplattform','Elvinci · Multi-Rollen-Portale'], auto:['Workflow-Automatisierung','Elvinci · n8n'],
+    kal:['Kalanit Rehab','Drop Solutions · Medizin-App'], trf:['Trainify Tennis','Freelance · Sport-KI-App'], den:['Denaio','Alfabolt · Fintech'], soc:['Social Apps','Alfabolt · Echtzeit-Chat']
+  } : {
     oms:['B2B trading platform','Elvinci · multi-role portals'], auto:['Workflow automation','Elvinci · n8n'],
     kal:['Kalanit Rehab','Drop Solutions · medical app'], trf:['Trainify Tennis','Freelance · sports AI app'], den:['Denaio','Alfabolt · fintech'], soc:['Social apps','Alfabolt · real-time chat'],
     nuc:['Nuclear knowledge assistant','AI · multi-agent RAG'], med:['AI medical writer','AI · agent pipeline'],
@@ -58,8 +62,8 @@ if (window.top !== window.self) { try { window.top.location = window.self.locati
   var G = [
     ['Frontend', {'React':['oms','den','soc'],'TypeScript':['oms'],'React Native':['kal','trf'],'Material UI':['kal','oms'],'Storybook':['kal'],'WebSockets':['soc']}],
     ['Backend', {'Django REST':['oms'],'Node.js':['kal','den'],'Python':['oms'],'PostgreSQL':['oms','auto'],'Celery':['oms','auto']}],
-    ['AI & vision', {'TensorFlow.js':['kal'],'MediaPipe':['kal'],'Pose detection':['kal','trf']}],
-    ['DevOps & automation', {'Docker':['oms'],'GitHub Actions':['oms'],'n8n':['auto'],'Jira API':['auto'],'Stripe':['den']}]
+    [de ? 'KI & Vision' : 'AI & vision', (function(o){ o[de?'Posenerkennung':'Pose detection']=['kal','trf']; return o; })({'TensorFlow.js':['kal'],'MediaPipe':['kal']})],
+    [de ? 'DevOps & Automatisierung' : 'DevOps & automation', {'Docker':['oms'],'GitHub Actions':['oms'],'n8n':['auto'],'Jira API':['auto'],'Stripe':['den']}]
   ];
   var groups = document.getElementById('groups'), title = document.getElementById('used-title'), list = document.getElementById('used-list'), btns = [];
   function show(name, ids, btn){
@@ -88,17 +92,17 @@ if (window.top !== window.self) { try { window.top.location = window.self.locati
   /* copy email */
   document.getElementById('copy').addEventListener('click', function(){
     var btn = this, el = document.getElementById('email');
-    function done(){ btn.textContent = 'Copied'; setTimeout(function(){ btn.textContent = 'Copy email'; }, 1600); }
-    function fallback(){ var r = document.createRange(); r.selectNodeContents(el); var s = getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = 'Selected, press Ctrl+C'; }
+    function done(){ btn.textContent = de ? 'Kopiert' : 'Copied'; setTimeout(function(){ btn.textContent = de ? 'E-Mail kopieren' : 'Copy email'; }, 1600); }
+    function fallback(){ var r = document.createRange(); r.selectNodeContents(el); var s = getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = de ? 'Markiert, Strg+C drücken' : 'Selected, press Ctrl+C'; }
     if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(el.textContent).then(done, fallback); else fallback();
   });
 
   /* live system map */
   var cv = document.getElementById('map'), ctx = cv.getContext('2d');
   var N = [
-    {id:'buyer', l:'Buyer portal', x:.0, y:.12, c:'a'}, {id:'sales', l:'Sales portal', x:.0, y:.42, c:'a'}, {id:'wh', l:'Warehouse', x:.0, y:.72, c:'a'},
+    {id:'buyer', l:de?'Käuferportal':'Buyer portal', x:.0, y:.12, c:'a'}, {id:'sales', l:de?'Vertriebsportal':'Sales portal', x:.0, y:.42, c:'a'}, {id:'wh', l:de?'Lager':'Warehouse', x:.0, y:.72, c:'a'},
     {id:'api', l:'Django API', x:.5, y:.42, c:'b'},
-    {id:'db', l:'PostgreSQL', x:1, y:.12, c:'c'}, {id:'ai', l:'LLM agent', x:1, y:.42, c:'c'}, {id:'n8n', l:'n8n', x:1, y:.72, c:'c'},
+    {id:'db', l:'PostgreSQL', x:1, y:.12, c:'c'}, {id:'ai', l:de?'LLM-Agent':'LLM agent', x:1, y:.42, c:'c'}, {id:'n8n', l:'n8n', x:1, y:.72, c:'c'},
     {id:'jira', l:'Jira · Teams', x:.5, y:.95, c:'c'}
   ];
   var E = [['buyer','api'],['sales','api'],['wh','api'],['api','db'],['api','ai'],['api','n8n'],['n8n','jira'],['n8n','db']];

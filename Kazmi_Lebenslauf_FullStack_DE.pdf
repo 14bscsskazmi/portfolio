@@ -1,0 +1,501 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/PageMode /UseNone
+/Pages 2 0 R
+/Type /Catalog
+>>
+endobj
+2 0 obj
+<<
+/Count 1
+/Kids [ 3 0 R ]
+/Type /Pages
+>>
+endobj
+3 0 obj
+<<
+/Contents 4 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Parent 2 0 R
+/Resources <<
+/Font 5 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+>>
+endobj
+4 0 obj
+<<
+/Length 10210
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 51.35433 780.7087 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 115.1235 0 Td (Kazmi, Syed Salman Haider) Tj T* -115.1235 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.35433 765.7087 cm
+q
+.333333 .333333 .333333 rg
+BT 1 0 0 1 0 4 Tm /F1 11 Tf 15 TL 100.1815 0 Td (Full-Stack Entwickler \267 React \267 TypeScript \267 Django \267 Node.js) Tj T* -100.1815 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.35433 754.7087 cm
+q
+.333333 .333333 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F1 7.4 Tf 11 TL 0.721034 0 Td (N\374rnberg, Deutschland \177 +49 176 75272363 \177 salmanhaider631@gmail.com \177 salmankazmi.de \177 linkedin.com/in/syed-salman-haider-kazmi-921bb0a6) Tj T* -0.721034 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.35433 750.7087 cm
+Q
+q
+1 0 0 1 51.35433 730.7087 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (PROFIL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 728.1087 cm
+q
+.6 w
+1 J
+.121569 .227451 .372549 RG
+n 0 0 m 492.5669 0 l S
+Q
+Q
+q
+1 0 0 1 51.35433 667.1087 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 49 Tm /F1 9 Tf 11.6 TL (Full-Stack Entwickler mit 7 Jahren Erfahrung in Entwicklung und Verantwortung von B2B- und B2C-Webanwendungen \226) Tj T* (von React/TypeScript-Frontends bis zu Django- und Node.js-REST-APIs. Leitung des Designs eines) Tj T* (Order-Management-Systems mit rollenbasierten Portalen \(RBAC\) und automatisierter Rechnungsstellung sowie) Tj T* (Automatisierung team\374bergreifender Abl\344ufe mit n8n. Erfahren in Backlog-Management, CI/CD, Docker und Mentoring.) Tj T* (T\344glicher Einsatz KI-gest\374tzter Tools \(Claude, Cursor, ChatGPT\); aktuell im Ausbau von Java Spring Boot.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 647.1087 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (TECHNISCHE F\304HIGKEITEN) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 644.5087 cm
+q
+.6 w
+1 J
+.121569 .227451 .372549 RG
+n 0 0 m 492.5669 0 l S
+Q
+Q
+q
+1 0 0 1 51.35433 629.9087 cm
+q
+BT 1 0 0 1 0 2.6 Tm 11.6 TL /F2 9 Tf 0 0 0 rg (Frontend:) Tj /F1 9 Tf ( React, TypeScript, Angular, React Native, Vite, Material UI, CoreUI, React Storybook, HTML5, CSS3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 606.7087 cm
+q
+BT 1 0 0 1 0 14.2 Tm 11.6 TL /F2 9 Tf 0 0 0 rg (Backend:) Tj /F1 9 Tf ( Python, Django, Django REST Framework, Node.js, PostgreSQL, MySQL, Redis, Celery, REST APIs, Java) Tj T* (Spring Boot \(im Aufbau\), PHP \(Laravel\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 595.1087 cm
+q
+BT 1 0 0 1 0 2.6 Tm 11.6 TL /F2 9 Tf 0 0 0 rg (DevOps:) Tj /F1 9 Tf ( Docker, GitHub Actions, CI/CD-Pipelines, nginx, Git) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 583.5087 cm
+q
+BT 1 0 0 1 0 2.6 Tm 11.6 TL /F2 9 Tf 0 0 0 rg (Automatisierung:) Tj /F1 9 Tf ( n8n, REST-/Webhook-Integrationen, API-Orchestrierung \(Jira, MS Teams, CRM, Finance\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 560.3087 cm
+q
+BT 1 0 0 1 0 14.2 Tm 11.6 TL /F2 9 Tf 0 0 0 rg (Arbeitsweise:) Tj /F1 9 Tf ( Agile/Scrum, Jira, Backlog-Verantwortung, RBAC-Design, Code-Reviews & Mentoring, KI-gest\374tzte) Tj T* (Entwicklung) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 540.3087 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (BERUFSERFAHRUNG) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 537.7087 cm
+q
+.6 w
+1 J
+.121569 .227451 .372549 RG
+n 0 0 m 492.5669 0 l S
+Q
+Q
+q
+1 0 0 1 51.35433 520.2087 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2.7 Tm /F2 9.8 Tf 12.5 TL (Full-Stack Entwickler) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 509.2087 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .333333 .333333 .333333 rg (Elvinci.de GmbH \267 N\374rnberg \267 B2B-Retouren-Handelsplattform f\374r Wei\337e Ware & Elektronik | Feb 2023 \226 Okt 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 472.4087 cm
+BT /F1 8 Tf 9.6 TL ET
+0 0 0 rg
+BT 1 0 0 1 0 26.8 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 63.35433 472.4087 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 25.8 Tm /F1 9 Tf 11.6 TL (Technische Hauptverantwortung f\374r das neue B2B-Kundenportal: Leitung und Design rollenbasierter) Tj T* (Web-Portale \(Admin, Sales, Back-Office, Suppliers, Buyer, Warehouse\) mit React und TypeScript inkl. granularer) Tj T* (RBAC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 449.2087 cm
+BT /F1 8 Tf 9.6 TL ET
+0 0 0 rg
+BT 1 0 0 1 0 15.2 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 63.35433 449.2087 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14.2 Tm /F1 9 Tf 11.6 TL (Entwicklung und Erweiterung skalierbarer Django REST APIs f\374r das Order Management System \(OMS\) inkl.) Tj T* (automatisierter B2B-Rechnungsstellung) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 426.0087 cm
+BT /F1 8 Tf 9.6 TL ET
+0 0 0 rg
+BT 1 0 0 1 0 15.2 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 63.35433 426.0087 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14.2 Tm /F1 9 Tf 11.6 TL (Backlog-Verantwortung: \334bersetzung von Anforderungen aus Sales, Lager und IT in User Stories mit Akzeptanzkriterien) Tj T* (und Priorisierung von Sprints nach Business Impact) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 414.4087 cm
+BT /F1 8 Tf 9.6 TL ET
+0 0 0 rg
+BT 1 0 0 1 0 3.6 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 63.35433 414.4087 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.6 Tm /F1 9 Tf 11.6 TL (Aufbau durchg\344ngiger CI/CD-Pipelines mit GitHub Actions und Docker \374ber Entwicklung, Staging und Produktion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 391.2087 cm
+BT /F1 8 Tf 9.6 TL ET
+0 0 0 rg
+BT 1 0 0 1 0 15.2 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 63.35433 391.2087 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14.2 Tm /F1 9 Tf 11.6 TL (Prozessautomatisierung mit n8n und Celery, z. B. automatische Jira-Tickets aus MS-Teams-Meldungen und Import von) Tj T* (Lieferanten-XLSX-Dateien) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 379.6087 cm
+BT /F1 8 Tf 9.6 TL ET
+0 0 0 rg
+BT 1 0 0 1 0 3.6 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 63.35433 379.6087 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.6 Tm /F1 9 Tf 11.6 TL (Mentoring eines Junior-Entwicklers durch Code-Reviews und Coaching zu KI-gest\374tzter Entwicklung) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 362.1087 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2.7 Tm /F2 9.8 Tf 12.5 TL (Full-Stack Entwickler) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 351.1087 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .333333 .333333 .333333 rg (Drop Solutions \267 Italien \267 Digital Health & Medizinprodukt-Software | Nov 2021 \226 Sep 2022) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 325.9087 cm
+BT /F1 8 Tf 9.6 TL ET
+0 0 0 rg
+BT 1 0 0 1 0 15.2 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 63.35433 325.9087 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14.2 Tm /F1 9 Tf 11.6 TL (Leitung der technischen Entwicklung von Kalanit Rehab, einer CE-zertifizierten Medizinprodukt-App der Klasse I) Tj T* (\(iOS/Android\), exklusiv vertrieben durch Chiesi Italia) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 314.3087 cm
+BT /F1 8 Tf 9.6 TL ET
+0 0 0 rg
+BT 1 0 0 1 0 3.6 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 63.35433 314.3087 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.6 Tm /F1 9 Tf 11.6 TL (Echtzeit-Ganzk\366rper-Posenerkennung mit TensorFlow.js und MediaPipe f\374r sofortiges Korrektur-Feedback) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 291.1087 cm
+BT /F1 8 Tf 9.6 TL ET
+0 0 0 rg
+BT 1 0 0 1 0 15.2 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 63.35433 291.1087 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14.2 Tm /F1 9 Tf 11.6 TL -0.012009 Tw (Klinisches Dashboard \(Arzt-Patienten-Anbindung, Tagebuch, VAS-Schmerzskala, Fortschritt\) mit Node.js-REST-API und) Tj T* 0 Tw (React-Native-Frontend) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 279.5087 cm
+BT /F1 8 Tf 9.6 TL ET
+0 0 0 rg
+BT 1 0 0 1 0 3.6 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 63.35433 279.5087 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.6 Tm /F1 9 Tf 11.6 TL (Wiederverwendbare Komponentenbibliothek mit React Storybook und Material UI) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 262.0087 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2.7 Tm /F2 9.8 Tf 12.5 TL (Frontend Entwickler) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 251.0087 cm
+q
+.333333 .333333 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F3 8.5 Tf 11 TL (Alfabolt \267 Pakistan | M\344r 2018 \226 Nov 2021) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 225.8087 cm
+BT /F1 8 Tf 9.6 TL ET
+0 0 0 rg
+BT 1 0 0 1 0 15.2 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 63.35433 225.8087 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14.2 Tm /F1 9 Tf 11.6 TL (Zentrale React-Features f\374r Social-Media-Apps mit tausenden Nutzern: Echtzeit-Chat \(WebSocket\), Profile, Activity) Tj T* (Feeds) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 214.2087 cm
+BT /F1 8 Tf 9.6 TL ET
+0 0 0 rg
+BT 1 0 0 1 0 3.6 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 63.35433 214.2087 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.6 Tm /F1 9 Tf 11.6 TL (Einf\374hrung von Frontend-Coding-Standards, Komponentenbibliotheken und Architektur-Richtlinien) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 191.0087 cm
+BT /F1 8 Tf 9.6 TL ET
+0 0 0 rg
+BT 1 0 0 1 0 15.2 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 63.35433 191.0087 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14.2 Tm /F1 9 Tf 11.6 TL (Projektleitung Denaio \(Taschengeld-Plattform\): Anforderungen, Architektur, Node.js-Backend, PayPal- und) Tj T* (Stripe-Zahlungen) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 171.0087 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (AUSBILDUNG) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 168.4087 cm
+q
+.6 w
+1 J
+.121569 .227451 .372549 RG
+n 0 0 m 492.5669 0 l S
+Q
+Q
+q
+1 0 0 1 51.35433 150.9087 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2.7 Tm /F2 9.8 Tf 12.5 TL (M.Sc. Informatik) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 139.9087 cm
+q
+.333333 .333333 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F3 8.5 Tf 11 TL (Sapienza-Universit\344t Rom \267 Abschlussnote 103/110 | Sep 2020 \226 Jul 2023) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 114.7087 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14.2 Tm /F1 9 Tf 11.6 TL (Schwerpunkte: Cloud Computing, Verteilte Systeme, K\374nstliche Intelligenz, Webentwicklung. Masterarbeit: Kalanit Rehab,) Tj T* (eine CE-zertifizierte Medizinprodukt-App mit Echtzeit-Posenerkennung \(TensorFlow.js, React Native\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 97.20866 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 2.7 Tm /F2 9.8 Tf 12.5 TL (B.Sc. Informatik) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 86.20866 cm
+q
+.333333 .333333 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F3 8.5 Tf 11 TL (NUST \267 Pakistan \267 Abschlussnote 3,36/4,0 | Sep 2014 \226 Jun 2018) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 66.20866 cm
+q
+.121569 .227451 .372549 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (SPRACHEN) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 63.60866 cm
+q
+.6 w
+1 J
+.121569 .227451 .372549 RG
+n 0 0 m 492.5669 0 l S
+Q
+Q
+q
+1 0 0 1 51.35433 49.00866 cm
+q
+BT 1 0 0 1 0 2.6 Tm 11.6 TL /F1 9 Tf 0 0 0 rg (Englisch \226 Verhandlungssicher \(C1\)  ) Tj ( ) Tj (\177) Tj ( ) Tj (  Deutsch \226 Fortgeschritten \(B1+\)  ) Tj ( ) Tj (\177) Tj ( ) Tj (  Urdu \226 Muttersprache) Tj T* ET
+Q
+Q
+ 
+
+endstream
+endobj
+5 0 obj
+<<
+/F1 6 0 R
+/F2 7 0 R
+/F3 8 0 R
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/Author (Syed Salman Haider Kazmi)
+/CreationDate (D\07220261026103608\05300\04700\047)
+/Creator (\050unspecified\051)
+/Keywords ()
+/ModDate (D\07220261026103608\05300\04700\047)
+/Producer (ReportLab PDF Library \055 \050opensource\051)
+/Subject (\050unspecified\051)
+/Title (Syed Salman Haider Kazmi \055 Full\055Stack Entwickler \267 React \267 TypeScript \267 Django \267 Node\056js)
+/Trapped /False
+>>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000015 00000 n 
+0000000083 00000 n 
+0000000142 00000 n 
+0000000341 00000 n 
+0000010604 00000 n 
+0000010655 00000 n 
+0000010762 00000 n 
+0000010874 00000 n 
+0000010989 00000 n 
+trailer
+<<
+/Size 10
+/Root 1 0 R
+/Info 9 0 R
+/ID [ <a701ce063c31cc3d08bd6299c7626cb8> <a701ce063c31cc3d08bd6299c7626cb8> ]
+>>
+startxref
+11412
+%%EOF
