@@ -51,14 +51,14 @@ if (window.top !== window.self) { try { window.top.location = window.self.locati
   /* skills explorer */
   var P = {
     oms:['B2B trading platform','Elvinci · multi-role portals'], auto:['Workflow automation','Elvinci · n8n'],
-    kal:['Kalanit Rehab','Drop Solutions · medical app'], den:['Denaio','Alfabolt · fintech'], soc:['Social apps','Alfabolt · real-time chat'],
+    kal:['Kalanit Rehab','Drop Solutions · medical app'], trf:['Trainify Tennis','Freelance · sports AI app'], den:['Denaio','Alfabolt · fintech'], soc:['Social apps','Alfabolt · real-time chat'],
     nuc:['Nuclear knowledge assistant','AI · multi-agent RAG'], med:['AI medical writer','AI · agent pipeline'],
     camp:['AI campaign portal','AI · full stack + vision'], uk:['UK property pipeline','Data · scraping']
   };
   var G = [
-    ['Frontend', {'React':['oms','den','soc'],'TypeScript':['oms'],'React Native':['kal'],'Material UI':['kal','oms'],'Storybook':['kal'],'WebSockets':['soc']}],
+    ['Frontend', {'React':['oms','den','soc'],'TypeScript':['oms'],'React Native':['kal','trf'],'Material UI':['kal','oms'],'Storybook':['kal'],'WebSockets':['soc']}],
     ['Backend', {'Django REST':['oms'],'Node.js':['kal','den'],'Python':['oms'],'PostgreSQL':['oms','auto'],'Celery':['oms','auto']}],
-    ['AI & vision', {'TensorFlow.js':['kal'],'MediaPipe':['kal']}],
+    ['AI & vision', {'TensorFlow.js':['kal'],'MediaPipe':['kal'],'Pose detection':['kal','trf']}],
     ['DevOps & automation', {'Docker':['oms'],'GitHub Actions':['oms'],'n8n':['auto'],'Jira API':['auto'],'Stripe':['den']}]
   ];
   var groups = document.getElementById('groups'), title = document.getElementById('used-title'), list = document.getElementById('used-list'), btns = [];

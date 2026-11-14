@@ -266,6 +266,7 @@ footer{padding-block:28px;color:var(--muted);font-size:13px;border-top:1px solid
         <button class="tab" role="tab" id="t-oms" aria-controls="p-oms" aria-selected="true"><b>B2B trading platform</b><small>Elvinci · 2023–2026</small></button>
         <button class="tab" role="tab" id="t-auto" aria-controls="p-auto" aria-selected="false" tabindex="-1"><b>Workflow automation</b><small>Elvinci · n8n</small></button>
         <button class="tab" role="tab" id="t-kal" aria-controls="p-kal" aria-selected="false" tabindex="-1"><b>Kalanit Rehab</b><small>Drop Solutions · 2021–2022</small></button>
+        <button class="tab" role="tab" id="t-trf" aria-controls="p-trf" aria-selected="false" tabindex="-1"><b>Trainify Tennis</b><small>Freelance · sports AI app</small></button>
         <button class="tab" role="tab" id="t-den" aria-controls="p-den" aria-selected="false" tabindex="-1"><b>Denaio</b><small>Alfabolt · fintech</small></button>
       </div>
 
@@ -320,6 +321,23 @@ footer{padding-block:28px;color:var(--muted);font-size:13px;border-top:1px solid
           <div class="pipe" aria-label="System flow"><span class="n" style="--i:0">camera</span><span class="e" style="--i:0"></span><span class="n" style="--i:1">MediaPipe pose</span><span class="e" style="--i:1"></span><span class="n" style="--i:2">form check</span><span class="e" style="--i:2"></span><span class="n" style="--i:3">live feedback</span><span class="e" style="--i:3"></span><span class="n" style="--i:4">doctor dashboard</span></div>
           <div class="outcome"><b>Outcome:</b> CE-certified medical device with ministerial authorisation (2023). Also defended as my M.Sc. thesis at Sapienza University of Rome.</div>
           <ul class="chips"><li>React Native</li><li>Expo</li><li>TensorFlow.js</li><li>MediaPipe</li><li>Node.js</li><li>Storybook</li><li>Material UI</li></ul>
+        </article>
+
+        <article class="panel" role="tabpanel" id="p-trf" aria-labelledby="t-trf" hidden>
+          <div class="meta"><span>Freelance, with a co-founder</span><span>Mobile frontend + pose detection</span><span>Sports tech</span></div>
+          <h3>Trainify Tennis</h3>
+          <p class="sub">An AI-enabled performance analysis app for tennis players. It analyses forehand, backhand and serve technique from video and suggests how to improve. <a href="https://trainifytennis.com/" target="_blank" rel="noopener">trainifytennis.com</a></p>
+          <div class="cols">
+            <div><h4>Problem</h4><p>Players practising without a coach can't see what's wrong with their stroke: grip, preparation, swing path, contact and follow-through all happen in under a second.</p></div>
+            <div><h4>What I built</h4><ul>
+              <li>Set up the <b>React Native frontend</b> for both <b>iOS and Android</b>.</li>
+              <li>Built the <b>full-body pose detection</b> feature that tracks the player's body during a stroke.</li>
+              <li>Implemented the <b>arm-movement comparison</b> that checks the player's motion against the reference technique and flags where it differs.</li>
+            </ul></div>
+          </div>
+          <div class="pipe" aria-label="System flow"><span class="n" style="--i:0">phone camera</span><span class="e" style="--i:0"></span><span class="n" style="--i:1">pose detection</span><span class="e" style="--i:1"></span><span class="n" style="--i:2">arm movement</span><span class="e" style="--i:2"></span><span class="n" style="--i:3">compare to reference</span><span class="e" style="--i:3"></span><span class="n" style="--i:4">feedback</span></div>
+          <div class="outcome"><b>Outcome:</b> a live product, offered by subscription at trainifytennis.com.</div>
+          <ul class="chips"><li>React Native</li><li>iOS</li><li>Android</li><li>Pose detection</li><li>Computer vision</li></ul>
         </article>
 
         <article class="panel" role="tabpanel" id="p-den" aria-labelledby="t-den" hidden>
