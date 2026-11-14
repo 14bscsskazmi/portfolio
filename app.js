@@ -56,10 +56,10 @@ if (window.top !== window.self) { try { window.top.location = window.self.locati
     camp:['AI campaign portal','AI · full stack + vision'], uk:['UK property pipeline','Data · scraping']
   };
   var G = [
-    ['Frontend', {'React':['oms','den','soc'],'TypeScript':['oms'],'React Native':['kal'],'Material UI':['kal','oms'],'Storybook':['kal'],'WebSockets':['soc'],'Streamlit':['nuc','med']}],
-    ['Backend', {'Django REST':['oms'],'Node.js':['kal','den'],'Python':['oms','nuc','med','camp','uk'],'FastAPI':['med'],'Flask':['camp'],'PostgreSQL':['oms','auto','camp','uk'],'Celery':['oms','auto']}],
-    ['AI', {'LangGraph':['nuc'],'LangChain':['med'],'RAG':['nuc','med'],'Vector DBs':['nuc','med'],'LLM APIs':['nuc','med','camp'],'TensorFlow.js':['kal'],'MediaPipe':['kal']}],
-    ['DevOps & automation', {'Docker':['oms'],'GitHub Actions':['oms'],'n8n':['auto'],'Jira API':['auto'],'Stripe':['den','camp'],'OAuth / JWT':['camp','uk']}]
+    ['Frontend', {'React':['oms','den','soc'],'TypeScript':['oms'],'React Native':['kal'],'Material UI':['kal','oms'],'Storybook':['kal'],'WebSockets':['soc']}],
+    ['Backend', {'Django REST':['oms'],'Node.js':['kal','den'],'Python':['oms'],'PostgreSQL':['oms','auto'],'Celery':['oms','auto']}],
+    ['AI & vision', {'TensorFlow.js':['kal'],'MediaPipe':['kal']}],
+    ['DevOps & automation', {'Docker':['oms'],'GitHub Actions':['oms'],'n8n':['auto'],'Jira API':['auto'],'Stripe':['den']}]
   ];
   var groups = document.getElementById('groups'), title = document.getElementById('used-title'), list = document.getElementById('used-list'), btns = [];
   function show(name, ids, btn){
