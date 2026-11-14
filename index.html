@@ -6,6 +6,8 @@
 <title>Salman Kazmi</title>
 <meta property="og:title" content="Salman Kazmi, Full-Stack Developer">
 <meta property="og:url" content="https://salmankazmi.de">
+<meta property="og:image" content="https://salmankazmi.de/salman-kazmi.jpg">
+<link rel="icon" href="salman-kazmi.jpg">
 <meta name="description" content="Syed Salman Haider Kazmi, Full-Stack Developer in Nuremberg. React, TypeScript, Django, Node.js, n8n and AI agents.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,6 +49,10 @@ nav ul a:hover{color:var(--ink)} nav ul a:hover::after{right:0}
 
 /* hero */
 .hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:40px;align-items:center;padding-block:56px 40px}
+.who{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.avatar{position:relative;width:92px;height:92px;border-radius:50%;padding:3px;background:conic-gradient(from 0deg,var(--accent),var(--accent2),var(--accent));flex:none;animation:spin 8s linear infinite}
+.avatar img{display:block;width:100%;height:100%;border-radius:50%;object-fit:cover;border:3px solid var(--bg);animation:spin 8s linear infinite reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
 .status{display:inline-flex;align-items:center;gap:10px;font:500 13px var(--mono);color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:6px 14px 6px 10px;background:var(--bg2)}
 .status b{width:8px;height:8px;border-radius:50%;background:#3ddc97;box-shadow:0 0 0 0 rgba(61,220,151,.6);animation:ping 2s infinite}
 @keyframes ping{70%{box-shadow:0 0 0 8px rgba(61,220,151,0)}100%{box-shadow:0 0 0 0 rgba(61,220,151,0)}}
@@ -209,7 +215,7 @@ footer{padding-block:28px;color:var(--muted);font-size:13px;border-top:1px solid
 <div class="wrap" id="top">
   <header class="hero">
     <div>
-      <span class="status"><b></b>Open to full-time roles · Nuremberg, Germany</span>
+      <div class="who"><div class="avatar"><img src="salman-kazmi.jpg" alt="Portrait of Syed Salman Haider Kazmi" width="180" height="180"></div><span class="status"><b></b>Open to full-time roles · Nuremberg, Germany</span></div>
       <h1>I build the web apps that <span class="grad">run the business.</span></h1>
       <div class="typer" aria-live="off">&gt; currently shipping <span class="t" id="typer">React portals</span><span class="caret" aria-hidden="true"></span></div>
       <p class="lede">I'm Syed Salman Haider Kazmi, a full-stack developer with 7 years of experience. I take products from the data model to the last pixel: React and TypeScript frontends, Django and Node.js APIs, n8n automations and AI agents.</p>
